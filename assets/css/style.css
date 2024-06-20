@@ -456,7 +456,14 @@ a.button {
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
 }
-
+.subcategory-bevarages{
+font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  color: #dc3545;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  margin-left: 13px;
+}
 .rating-star {
   position: relative;
   overflow: hidden;
@@ -2412,9 +2419,15 @@ a.button {
   float: left;
   overflow: hidden;
   margin-right: 14px;
+  width: 100px;
+  height: 100px;
  
 }
-
+.food-item-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .breakfast-item-img {
   float: left;
   overflow: hidden;
